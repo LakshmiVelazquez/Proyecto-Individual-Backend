@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+.menu{
+    background: #FFC482;
+    height: 120px;
+    width: 100%;
+}
+
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+
+.logo{
+    height: 80px;
+}
+
+.menu ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.menu ul li{
+    display: inline-block;
+    line-height: 120px;
+    margin: 0px 5px;
+}
+
+.menu ul li a {
+    color: #000;
+    font-size: 18px;
+    padding: 15px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.menu li a.active{
+    color: #fff;
+    font-weight: bold;
+    background: #724408;
+    transition: .5s;
+    border-radius: 5px;
+  }
+  
+  
+  .menu li a:hover{
+    color: #fff;
+    background: #2B3A67;
+    transition: .5s;
+    border-radius: 5px;
+  }
+
+
+
+.btn-menu{
+    font-size: 18px;
+    color:#000;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+}
+
+#btnMenu{
+    display:none;
+}
+
+
+
+.Pag_horarios{
+    background: rgb(43,58,103);
+    background: linear-gradient(0deg, rgba(43,58,103,1) 0%, rgba(255,196,130,1) 100%);
+    height: calc(100vh - 120px);
+    width: 100%;
+}
